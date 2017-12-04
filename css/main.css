@@ -1,1 +1,161 @@
 /* Los estilos de tu proyecto */
+.navbar-default {
+  background: #fff;
+  margin-bottom: 0;
+}
+
+.taxi{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 727px;
+  padding-top: 97px;
+  background-position: center;
+  background-position-y: bottom;
+}
+
+.img {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.icon {
+  float: left;
+}
+
+.cuadro {
+  background: #F7B617;
+  color: #fff;
+  padding-bottom: 30px;
+  padding-left: 35px;
+}
+
+.cuadroMovil {
+  background: #F7B617;
+  color: #fff;
+  padding: 34px;
+}
+
+.btn-default {
+  font-weight: bold;
+  color: #000;
+  margin-top: 15px;
+}
+
+.fondoAmarillo {
+  background: #F7B617;
+  margin-top: -107px;
+}
+
+.rectangulo {
+  border: 1px solid #fff;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-left: 85px;
+  margin-bottom: 60px;
+  border-left: 0;
+  color: #fff;
+}
+
+.descargaApp {
+  color: #fff;
+  padding-right: 87px;
+}
+
+.conduce {
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 695px;
+  padding-top: 97px;
+  background-position: center;
+  background-position-y: bottom;
+}
+
+.cuadroTransparente {
+  background: #0000007a;
+  color: #fff;
+  height: 497px;
+  margin-top: -98px;
+  padding-top: 122px;
+}
+
+.btnAmarillo {
+  background: #F7B617;
+  border-color: #F7B617;
+  color: #fff;
+  font-size: 20px;
+}
+
+.mapa {
+  background: #f7b617;
+  margin-top: -200px;
+  padding-bottom: 40px;
+}
+
+.mapaTarifa {
+  padding-top: 76px;
+}
+
+.bordeMapa {
+  height: 300px;
+  border: 1px solid #fff;
+  padding: 8px;
+  margin-top: 25px;
+}
+
+.input {
+  background-color: #f7b617;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.mapaGoogle {
+  width: 100%;
+  height: 100%;
+}
+
+.inputDestino {
+  padding-bottom: 22px;
+}
+
+.tarifas {
+  color: #fff;
+}
+
+.links {
+  background: #2B2B2B;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.espacio {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.imgApps {
+  margin-top: 110px;
+}
+
+.imgFooter {
+  margin-bottom: 20px;
+  width: 165px;
+}
+
+.iconRedes {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.copyright {
+  margin-left: 0;
+}
+
+.marginLinks {
+  padding-left: 15px;
+}

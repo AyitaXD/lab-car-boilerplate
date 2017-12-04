@@ -1,1 +1,193 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="icon navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="img">
+              <img src="assets/images/logoForma.png" alt="logo">
+            </div>
+            <!-- <a class="navbar-brand" href="#">Project name</a> -->
+          </div>
+          <div class="navbar-collapse collapse navbar-right">
+            <ul class="menu nav navbar-nav">
+              <li class="active"><a href="#">Viaja</a></li>
+              <li><a href="#about">Conduce</a></li>
+              <li><a href="#contact">Inicia sesión</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+</header>
+
+<section class="taxi">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="cuadro col-sm-4 col-sm-offset-8 hidden-xs">
+        <h1>Disfruta del viaje <br> Eres dueño de tu tiempo</h1>
+        <br>
+        <p>Viaja con <img class="logoBlanco" src="assets/images/logoBlanco.png" alt="logo"></p>
+        <button type="button" class="btn btn-default">Regístrate</button>
+        <br>
+        <br>
+        <div class="hr col-sm-4">
+          <hr>
+        </div>
+        <div class="hr col-sm-4 text-center">
+          <p>O bien</p>
+        </div>
+        <div class="hr col-sm-4">
+          <hr>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="btn btn-default">Conviértete en conductor</button>
+      </div>
+      <div class="cuadroMovil col-xs-11 col-xs-offset-1 hidden-lg hidden-md hidden-sm">
+        <h3>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt=""></h3>
+        <button type="button" class="btn btn-default">Descarga el app</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fondoAmarillo">
+  <div class="container-fluid">
+    <div class="row rectangulo col-sm-10">
+      <div class="iphone6 col-sm-6">
+        <h1>La nueva app</h1>
+        <img class="img-responsive" src="assets/images/iPhone6Plus.png" alt="iPhone6Plus">
+      </div>
+      <div class="descargaApp col-sm-6 hidden-xs">
+        <h2>Descarga la nueva app</h2>
+        <h3>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</h3>
+        <h3>Con solo tocar un botón , un auto llega justo a tu ubicación. Subeté y no te preocupes: tu conductor sabe exactamente donde ir</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="conduce">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="cuadroTransparente col-sm-4 col-sm-offset-8">
+        <h1>Conduce cuando quieras</h1>
+        <h3>LabCar es una opción flexible para alcanzar tus metas financieras.</h3>
+        <br>
+        <button type="button" class="btn btn-default btnAmarillo">Conviértete en conductor</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mapa">
+  <div class="container">
+    <div class="mapaTarifa row">
+      <div class="tarifas col-sm-7">
+          <h1>Tarifas</h1>
+          <p>Consulta las tarifas LabCar aquí</p>
+          <div class="row">
+            <div class="col-xs-1">
+              <img src="assets/images/shape.png" alt="shape">
+            </div>
+            <div class="col-xs-11">
+              <input id="origen" class="input form-control" type="text" placeholder="Ingrese su punto de partida" autocomplete="off">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="inputDestino col-xs-1">
+              <img src="assets/images/shape2.png" alt="shape2">
+            </div>
+            <div class="col-xs-11">
+              <input id="origen" class="input form-control" type="text" placeholder="Ingrese su destino" autocomplete="off">
+            </div>
+              <button type="button" class="btn btn-default btnTrazarRuta">¡Trazar Ruta!</button>
+
+          </div>
+      </div>
+      <div class="bordeMapa col-sm-5">
+        <iframe class="mapaGoogle embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.939744860902!2d-70.6395246!3d-33.4171188!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512386529368" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="links">
+  <div class="container">
+    <div class="marginLinks row">
+      <img class="img-responsive" src="assets/images/logoBlanco.png" alt="logo blanco">
+      <hr>
+      <div class="col-md-12">
+        <div class="col-md-offset-3 col-md-3 col-xs-6">
+          <a href="#"><div class="espacio">Viaja</div></a>
+          <a href="#"><div class="espacio">Conduce</div></a>
+          <a href="#"><div class="espacio">Ciudades</div></a>
+          <a href="#"><div class="espacio">Ciudades</div></a>
+          <a href="#"><div class="espacio">Entregas</div></a>
+          <a href="#"><div class="espacio">Como funciona?</div></a>
+          <a href="#"><div class="espacio">Países</div></a>
+          <a href="#"><div class="espacio">Se</div></a>
+        </div>
+        <div class="col-md-3 hidden-xs">
+          <a href="#"><div class="espacio">Oportunidades</div></a>
+          <a href="#"><div class="espacio">Nuestra historia</div></a>
+          <a href="#"><div class="espacio">API de LabCar</div></a>
+          <a href="#"><div class="espacio">Eventos</div></a>
+          <a href="#"><div class="espacio">Desarrolladores</div></a>
+          <a href="#"><div class="espacio">Servicios</div></a>
+          <a href="#"><div class="espacio">Laboratoria</div></a>
+          <a href="#"><div class="espacio">Coders</div></a>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="col-md-3 visible-xs">
+            <a href="#"><i class="fa fa-facebook iconRedes" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter iconRedes" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin iconRedes" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-apple iconRedes" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-play iconRedes" aria-hidden="true"></i></a>
+          </div>
+          <div class="imgApps">
+            <img class="imgFooter img-responsive" src="assets/images/appstore.png" alt="app store">
+            <img class="imgFooter img-responsive" src="assets/images/enBadgeWebGeneric.png" alt="google play">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 hidden-xs">
+  	    <a href="#"><i class="fa fa-facebook iconRedes" aria-hidden="true"></i></a>
+  	    <a href="#"><i class="fa fa-twitter iconRedes" aria-hidden="true"></i></a>
+  	    <a href="#"><i class="fa fa-linkedin iconRedes" aria-hidden="true"></i></a>
+  	    <a href="#"><i class="fa fa-apple iconRedes" aria-hidden="true"></i></a>
+  	    <a href="#"><i class="fa fa-play iconRedes" aria-hidden="true"></i></a>
+	    </div>
+    </div>
+    <hr>
+    <div class="row copyright">© 2017 LabCar technologies Inc.</div>
+  </div>
+</footer>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/1625bb79ec.js"></script>
+</body>
+</html>
