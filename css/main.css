@@ -1,9 +1,32 @@
-/* Los estilos de tu proyecto */
+/*Header: Barra de navegación*/
 .navbar-default {
   background: #fff;
   margin-bottom: 0;
 }
+/*modal inicio sesión*/
+.usuario {
+  margin: auto;
+  width: 12em;
+}
 
+.background {
+  background: #08AC9D;
+}
+
+.login {
+  width: 70%
+}
+
+.btnLogin {
+  background: #f7b617;
+}
+
+.btnPadding {
+  padding-bottom: 16px;
+}
+/*cierre de modal Iniciar Sesion*/
+
+/*Sección 1: Imagen taxi */
 .taxi{
   background-image: url(../assets/images/taxi.jpg);
   background-size: cover;
@@ -11,58 +34,74 @@
   width: 100%;
   height: 727px;
   padding-top: 97px;
-  background-position: center;
   background-position-y: bottom;
 }
+/*modal registrate*/
+.registro {
+  background: #A9A9A9;
+}
 
+.modal-header .btncuenta {
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+.btnEnviar {
+  background: #5BC0DE;
+  border-color: #5BC0DE;
+  width: 100%;
+}
+/*Logo navbar*/
 .img {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-
+/*Icono del navbar en versión movil*/
 .icon {
   float: left;
 }
-
+/*Cuadro de la sección 1*/
 .cuadro {
   background: #F7B617;
   color: #fff;
   padding-bottom: 30px;
   padding-left: 35px;
 }
-
+/*Cuadro de la sección 1 versión movil*/
 .cuadroMovil {
   background: #F7B617;
   color: #fff;
   padding: 34px;
 }
-
+/*Botón de la sección 1 versión movil*/
 .btn-default {
   font-weight: bold;
   color: #000;
   margin-top: 15px;
 }
-
+/*Sección 2: Descarga la nueva app*/
 .fondoAmarillo {
   background: #F7B617;
   margin-top: -107px;
 }
-
+/*Contiene la imagen del iphone*/
 .rectangulo {
   border: 1px solid #fff;
   margin-top: 60px;
   padding-top: 40px;
-  padding-left: 85px;
+  padding-left: 6%;
+  padding-bottom: 5%;
   margin-bottom: 60px;
   border-left: 0;
   color: #fff;
 }
-
+/*Texto que desaparece en la versión movil*/
 .descargaApp {
   color: #fff;
   padding-right: 87px;
 }
-
+/*Imagen de la sección 3*/
 .conduce {
   background-image: url(../assets/images/conduce.jpg);
   background-size: cover;
@@ -73,7 +112,7 @@
   background-position: center;
   background-position-y: bottom;
 }
-
+/*Cuadro transparente sección 3*/
 .cuadroTransparente {
   background: #0000007a;
   color: #fff;
@@ -81,20 +120,20 @@
   margin-top: -98px;
   padding-top: 122px;
 }
-
+/*Botón de la sección 3*/
 .btnAmarillo {
   background: #F7B617;
   border-color: #F7B617;
   color: #fff;
   font-size: 20px;
 }
-
+/*Sección 4: Tarifas y Mapa*/
 .mapa {
   background: #f7b617;
   margin-top: -200px;
   padding-bottom: 40px;
 }
-
+/*Contiene el los input y mapa*/
 .mapaTarifa {
   padding-top: 76px;
 }
@@ -125,7 +164,7 @@
 .tarifas {
   color: #fff;
 }
-
+/*Footer: Link e iconos*/
 .links {
   background: #2B2B2B;
   color: white;
